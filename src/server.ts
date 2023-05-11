@@ -15,7 +15,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Rota para criar um novo usuário
-app.post('/users', async (req, res) => {
+app.post('/users', async (req: Request, res: Response) => {
   // Restante do código...
 });
 
